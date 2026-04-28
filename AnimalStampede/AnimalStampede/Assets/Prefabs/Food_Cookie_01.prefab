@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 4831869431771558105}
   - component: {fileID: 3098691936525366954}
   - component: {fileID: 2501696842288903601}
-  - component: {fileID: 3020324558638442974}
+  - component: {fileID: 4676822014379009255}
+  - component: {fileID: -6613153227534071445}
   m_Layer: 0
   m_Name: Food_Cookie_01
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8849869670830941569}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.08, y: 0, z: 7.799}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -87,7 +88,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3020324558638442974
+--- !u!114 &4676822014379009255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8849869670830941569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74f48319b59be804d81f306d177e2599, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-6613153227534071445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,3 +112,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84c35995d7ec243469bda54ce2a839f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 40
