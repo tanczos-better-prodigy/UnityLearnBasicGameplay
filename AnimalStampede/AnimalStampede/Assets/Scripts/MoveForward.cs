@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class MoveForward : MonoBehaviour
 {
     public float speed = 40f;
 

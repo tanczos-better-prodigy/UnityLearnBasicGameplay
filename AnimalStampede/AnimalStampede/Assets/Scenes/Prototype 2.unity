@@ -705,6 +705,55 @@ MonoBehaviour:
   speed: 10
   xRange: 10
   projectilePrefab: {fileID: 8849869670830941569, guid: b84f0be34f5072445891039fada04554, type: 3}
+--- !u!1 &1753975837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753975839}
+  - component: {fileID: 1753975838}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1753975838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753975837}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 240e96dac25ab2b41b22e08f6354fca9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 1953397890606848903, guid: 8b941a6bc9119a244b9edf3e89817121, type: 3}
+  - {fileID: 3373035168708343555, guid: a0ed2b182ff50654c985629c86cd3b17, type: 3}
+  - {fileID: 5018884080372900200, guid: 8aadf9130563c58498e5d980f5269f55, type: 3}
+  animalIndex: 0
+--- !u!4 &1753975839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753975837}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.6307697, y: 6.06131, z: -11.544341}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1451213760052557105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -945,3 +994,4 @@ SceneRoots:
   - {fileID: 8139871982241918163}
   - {fileID: 5564440369053103096}
   - {fileID: 4479223999086953489}
+  - {fileID: 1753975839}
